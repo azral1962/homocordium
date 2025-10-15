@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Hidup Istimewa"
+  subtitle: "Kekuatan Bersih, Kecerdasan Triune, dan Narasi Epik"
+  author: "Armein Z. R. Langi"
+  date: "10/15/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true
+
+
+
